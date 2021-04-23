@@ -1,0 +1,35 @@
+/* ================================================ Стили сайта =================================================== */
+body{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif !important;
+	background: #a3c2ff url(../images/nbg.png);
+	color:#000000;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+    position: relative;
+}
+
+#header, #cont_bottom, #data_content, #char_content, #shop_lobby_content, #content, .data_char, .data_type, #cartContent, #charButtons{
+	background-color:rgba(130, 130, 130, 0.74);
+}
+
+/* ================================================ Контент =================================================== */
+
+#menu a:hover,  #char_content a, .data_type a, .data_char a{
+	background-color:#393EE8;
+}
+/*=======================================================Товары================================================================*/
+
+#inStock, #wish, #current_image_bg{
+	background-color:black;
+}
+
+#cart, #menu a span{
+	color:#39e850;
+}
+#cartTable{
+	background:#909090;
+}
